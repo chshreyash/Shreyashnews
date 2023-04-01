@@ -1,0 +1,136 @@
+body {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.header-super-parent {
+  display: flex;
+  background-color: rgb(16, 11, 95);
+  justify-content: center;
+  height: 90px;
+  align-items: center;
+}
+.header-1 {
+  width: 30%;
+  height: 80%;
+}
+#head-1-1 {
+  display: flex;
+  background-color: white;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+#head-1-2 {
+  display: flex;
+  background-color: white;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  font-size: x-small;
+}
+#header-2 {
+  display: flex;
+  height: 80px;
+  border-bottom: 2px solid black;
+}
+.header-2 {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+}
+#head-2-1 {
+  padding: 10px;
+  justify-content: flex-start;
+  font-size: small;
+}
+#head-2-2 {
+  align-items: center;
+  font-size: xx-large;
+}
+#head-2-3 {
+  padding: 10px;
+  justify-content: flex-start;
+  font-size: small;
+}
+.content-super-parent {
+  display: flex;
+  border-bottom: 2px solid black;
+}
+.image {
+  padding: 20px;
+  width: 30%;
+  font-size: medium;
+}
+.content {  
+  font-size: medium;
+  padding: 20px;
+}
+.button{
+  background-color: #fa660b;
+  padding: 8px;
+}
+#head-2-3-1{
+  display: flex;
+}
+@media screen and (max-width: 580px) {
+  body {
+    font-family: 'Roboto';
+    font-size: 22px;
+  }
+  #head-2-2 {
+    align-items: center;
+    font-size: medium;
+  }
+  #head-2-1 {
+    padding: 10px;
+    justify-content: flex-start;
+    font-size:x-small;
+  }
+  #head-2-3 {
+    padding: 10px;
+    justify-content: flex-start;
+    font-size: x-small;
+  }
+  #head-2-3-1{
+    display: flex;
+    width: 100%;
+  }
+  .image {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  #emails{
+    width:60px;
+    height: 10px;
+  }
+  .button-1{
+    width:60px;
+    font-size: xx-small;
+  }
+  .content-super-parent {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    flex-direction: column;
+  }
+  .content { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button{
+    width: 160px;
+  }
+  .button-class{
+    display:flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 415px) {
+#head-1-1{          
+  font-size: large;
+}
+}
